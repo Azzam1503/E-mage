@@ -21,7 +21,7 @@ const CreatePost = () => {
       try {
         setGeneratingImg(true);
         const response = await fetch(
-          "https://img-generator-git-main-azzam1503.vercel.app/api/v1/dalle",
+          "https://e-mage-server.vercel.app/api/v1/dalle",
           {
             method: "POST",
             headers: {
@@ -49,7 +49,7 @@ const CreatePost = () => {
 
       try {
         const response = await fetch(
-          "https://img-generator-git-main-azzam1503.vercel.app/api/v1/post",
+          "https://e-mage-server.vercel.app/api/v1/post",
           {
             method: "POST",
             headers: {

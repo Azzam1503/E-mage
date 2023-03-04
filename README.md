@@ -3,7 +3,7 @@
 ![emage-logo](https://user-images.githubusercontent.com/113233352/222728671-e18f1d22-e7c0-455a-a844-4a6ff5f27d62.jpg)
 
 ## Tech/Library/Framework/Tools
-###Frontend (client)
+### Frontend (client)
 - Made with[ React.js](https://reactjs.org/) atom_symbol
 - Styled with [TailwindCSS]()
 
@@ -25,5 +25,6 @@
 - Create [Cloudinary](https://cloudinary.com/) API key 
 - Create a **.env** file :
     `touch .env`
-    - Paster all the key in .env file
+    - Paster all the key in .env file 
 - Run `npm install` to install all the dependencies
+- Run npm start
